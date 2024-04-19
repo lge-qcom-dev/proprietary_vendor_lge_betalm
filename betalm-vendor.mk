@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/betalm
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/betalm/proprietary/vendor/bin/cpfirmware:$(TARGET_COPY_OUT_VENDOR)/bin/cpfirmware \
-    vendor/lge/betalm/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
-    vendor/lge/betalm/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
-    vendor/lge/betalm/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lge/betalm/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/betalm/proprietary/vendor/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Codec_cal.acdb \
     vendor/lge/betalm/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
@@ -264,10 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/etc/camera/smartcam/9_smartcam_food.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartcam/9_smartcam_food.dat \
     vendor/lge/betalm/proprietary/vendor/etc/camera/vnr/SJ_VideoNR_LUT.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vnr/SJ_VideoNR_LUT.bin \
     vendor/lge/betalm/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
-    vendor/lge/betalm/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
-    vendor/lge/betalm/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
-    vendor/lge/betalm/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/lge/betalm/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/lge/betalm/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml \
     vendor/lge/betalm/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml \
     vendor/lge/betalm/proprietary/vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml \
@@ -604,7 +596,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
     vendor/lge/betalm/proprietary/vendor/lib/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msmnile.so \
     vendor/lge/betalm/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
-    vendor/lge/betalm/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/betalm/proprietary/vendor/lib/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib.com.lge.elvis.so \
     vendor/lge/betalm/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/betalm/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
@@ -615,14 +606,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVFFD.so \
     vendor/lge/betalm/proprietary/vendor/lib/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVMeshGen.so \
     vendor/lge/betalm/proprietary/vendor/lib/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVSegmentation.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJVideoNR.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/lge/betalm/proprietary/vendor/lib/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSRIyuv.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depth_bokeh_img.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depth_bokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depth_bokeh_video.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_depthcam_portrait_lighting.so \
@@ -632,7 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_makeup.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_object_tracking.so \
     vendor/lge/betalm/proprietary/vendor/lib/libarcsoft_singlecam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_singlecam_portrait_lighting.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/lge/betalm/proprietary/vendor/lib/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwfocuspeaking.so \
     vendor/lge/betalm/proprietary/vendor/lib/libc++_shared_pmd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared_pmd.so \
     vendor/lge/betalm/proprietary/vendor/lib/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared_snpe.so \
@@ -645,14 +630,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/lge/betalm/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
     vendor/lge/betalm/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/lge/betalm/proprietary/vendor/lib/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthcomputation_wrapper.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/lge/betalm/proprietary/vendor/lib/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeepromcutter.so \
     vendor/lge/betalm/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/betalm/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
     vendor/lge/betalm/proprietary/vendor/lib/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagerwrapper.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
@@ -660,36 +641,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/liblghdri.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblghdri.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgsnpeawb.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgsnpeawb.so \
     vendor/lge/betalm/proprietary/vendor/lib/liblgsnpeawb_beta.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgsnpeawb_beta.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/lge/betalm/proprietary/vendor/lib/libmorpho_image_stab31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stab31.so \
     vendor/lge/betalm/proprietary/vendor/lib/libmorpho_wdr2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_wdr2.so \
     vendor/lge/betalm/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/lge/betalm/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
-    vendor/lge/betalm/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
-    vendor/lge/betalm/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/lge/betalm/proprietary/vendor/lib/libspectre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspectre.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphony-1.1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-1.1.2.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphony-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-1.1.4.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphonypower-1.1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.2.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphonypower-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.4.so \
     vendor/lge/betalm/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/lge/betalm/proprietary/vendor/lib/libtof_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtof_cal.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/lge/betalm/proprietary/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libwfddisplayconfig_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfddisplayconfig_proprietary.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libwfdmmservice_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice_proprietary.so \
-    vendor/lge/betalm/proprietary/vendor/lib/libwfdutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdutils_proprietary.so \
     vendor/lge/betalm/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/AlacDecoderModule.so.1 \
     vendor/lge/betalm/proprietary/vendor/lib/rfsa/adsp/ApeDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/ApeDecoderModule.so.1 \
     vendor/lge/betalm/proprietary/vendor/lib/rfsa/adsp/AudioContextDetection.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/AudioContextDetection.so.1 \
@@ -766,7 +730,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib/rfsa/adsp/smecns_v2_module.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/smecns_v2_module.so.1 \
     vendor/lge/betalm/proprietary/vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/smecns_v2_module_fv9.so.1 \
     vendor/lge/betalm/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/lge/betalm/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/betalm/proprietary/vendor/lib64/camera/com.qti.eeprom.imx363_fm24c64d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.imx363_fm24c64d.so \
     vendor/lge/betalm/proprietary/vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.irs2381c_polar.so \
     vendor/lge/betalm/proprietary/vendor/lib64/camera/com.qti.eeprom.s5k3m3_fm24c64d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.s5k3m3_fm24c64d.so \
@@ -913,7 +876,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.msmnile.so \
     vendor/lge/betalm/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/lge/betalm/proprietary/vendor/lib64/hw/fingerprint.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msmnile.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/betalm/proprietary/vendor/lib64/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib.com.lge.elvis.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAutoContrast.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCmcPdaf.so \
@@ -924,14 +886,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVFFD.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVMeshGen.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVSegmentation.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSJVideoNR.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSRIyuv.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depth_bokeh_img.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depth_bokeh_img.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depth_bokeh_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depth_bokeh_video.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_depthcam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_depthcam_portrait_lighting.so \
@@ -942,7 +899,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_makeup.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_object_tracking.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libarcsoft_singlecam_portrait_lighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_singlecam_portrait_lighting.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwfocuspeaking.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libc++_shared_pmd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared_pmd.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libc++_shared_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared_snpe.so \
@@ -955,17 +911,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcinemaeffect.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdepthcomputation_wrapper.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeepromcutter.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation_symphony.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libfpsph.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpsph.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagerwrapper.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgae_main.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgawb_main.so \
@@ -973,35 +925,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/betalm/proprietary/vendor/lib64/liblghdri.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblghdri.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgsnpeawb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgsnpeawb.so \
     vendor/lge/betalm/proprietary/vendor/lib64/liblgsnpeawb_beta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgsnpeawb_beta.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libmorpho_image_stab31.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_image_stab31.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libmorpho_wdr2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_wdr2.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libspectre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspectre.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libsymphony-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-1.1.4.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libsymphonypower-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower-1.1.4.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libtof_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtof_cal.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/lge/betalm/proprietary/vendor/lib64/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwebrtc_audio_preprocessing.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/lge/betalm/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/lge/betalm/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/lge/betalm/proprietary/vendor/lib64/sensors.sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sar.so \
     vendor/lge/betalm/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.sensors@1.0.so \
-    vendor/lge/betalm/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-PRODUCT_PACKAGES += \
-    manifest_android.hardware.drm@1.3-service.widevine
+    vendor/lge/betalm/proprietary/vendor/lib64/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.sensors@1.0.so
